@@ -17,4 +17,9 @@ public class Militar {
     public String getFormularioVacaciones() {
         return "amarillo";     // use el formulario amarillo
     }
+    
+    public String imprimirTodo(){
+    	String x ="-------\nTrabaja "+ this.getHoras() + " a la semana\nGana " + this.getSalario() + " al año\nTiene " + this.getDiasVacaciones() + "dias de vacaciones al anio\nEl formulario es: " + this.getFormularioVacaciones();
+    	return x;
+    }
 }
