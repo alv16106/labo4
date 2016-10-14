@@ -1,5 +1,12 @@
 
+/**
+ * @author Rodrigo Alvarado
+ *
+ */
 public class Driver {
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Soldado soldado = new Soldado();
 		General general = new General();

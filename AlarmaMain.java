@@ -1,6 +1,10 @@
 // CC2006 Lab
 // Este programa cliente prueba el comportamiento de su clase AlarmaEmergencia.
 
+/**
+ * @author Rodrigo Alvarado
+ *
+ */
 public class AlarmaMain {
 	public static void main(String[] args) {
 		AlarmaEmergencia alarmaIncendio = new AlarmaEmergencia();
