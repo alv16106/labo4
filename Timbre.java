@@ -1,3 +1,5 @@
+//Clase superpadre
+
 public class Timbre {
 	public void m1() {
 		System.out.println("timbre 1");
